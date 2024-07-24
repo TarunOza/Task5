@@ -1,0 +1,55 @@
+.take-quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px; /* Adjust as per your design */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+  .questions {
+    margin-top: 20px;
+  }
+  
+  .questions .question {
+    margin-bottom: 20px;
+    text-align: left; /* Adjust text alignment as needed */
+  }
+  
+  .questions h3 {
+    margin-bottom: 10px;
+  }
+  
+  .questions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .questions li {
+    margin-bottom: 10px;
+  }
+  
+  .center-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .center-button:hover {
+    background-color: #0056b3;
+  }
+  
